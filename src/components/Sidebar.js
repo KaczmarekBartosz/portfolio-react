@@ -1,5 +1,4 @@
 import React from "react";
-import "boxicons";
 import "./Sidebar.css";
 
 function Sidebar() {
