@@ -1,10 +1,10 @@
 import "./App.css";
-import Sidebar from "./components/Sidebar";
+import MainLayout from "./components/MainLayout";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <MainLayout />
     </div>
   );
 }

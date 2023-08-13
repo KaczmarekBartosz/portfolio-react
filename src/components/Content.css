@@ -1,0 +1,11 @@
+.content {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: flex wrap;
+  margin-top: 10%;
+  margin-left: 500px;
+  padding: 100px;
+  background-color: white;
+  border-radius: 40px;
+}
