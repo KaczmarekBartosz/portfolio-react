@@ -12,7 +12,13 @@ function Sidebar() {
       </div>
       <ul className="list">
         <li className="list-item">
-          <a href="#projects">
+          <a href="#content">
+            <i class="bx bxs-home"></i>
+            <span className="links-name">Start</span>
+          </a>
+        </li>
+        <li className="list-item">
+          <a href="#about">
             <i class="bx bxs-info-circle"></i>
             <span className="links-name">About Me</span>
           </a>

@@ -1,11 +1,36 @@
 .content {
   width: 800px;
   height: 400px;
-  display: flex;
-  flex-direction: flex wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 10%;
   margin-left: 500px;
   padding: 100px;
-  background-color: white;
-  border-radius: 40px;
+  color: white;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(0, 0, 0, 0)
+    ),
+    url(../images/BartoszKaczmarek.png);
+  background-size: cover;
+
+  opacity: 0.9;
+  border-radius: 20px;
+  box-shadow: 0 60px 80px rgba(0, 0, 0, 0.6), 0 45px 26px rgba(0, 0, 0, 0.14);
+}
+.content p,
+.content h1,
+.content span,
+.content a {
+  align-self: start;
+}
+
+.who-am-i {
+  font-size: 1.5rem;
+}
+
+.content h1 {
+  color: #3a4b5c;
+  font-size: 2.5rem;
 }
