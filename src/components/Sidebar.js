@@ -17,16 +17,17 @@ function Sidebar() {
             <span className="links-name">Start</span>
           </a>
         </li>
-        <li className="list-item">
-          <a href="#about">
-            <i class="bx bxs-info-circle"></i>
-            <span className="links-name">About Me</span>
-          </a>
-        </li>
+
         <li className="list-item">
           <a href="#projects">
             <i class="bx bx-sidebar"></i>
             <span className="links-name">Projects</span>
+          </a>
+        </li>
+        <li className="list-item">
+          <a href="#timeline">
+            <i class="bx bxs-info-circle"></i>
+            <span className="links-name">About Me</span>
           </a>
         </li>
         <li className="list-item">

@@ -5,7 +5,8 @@ export const Timeline = () => {
   return (
     <div id="timeline">
       <div>
-        <h2 class="theading">About Me - timeline</h2>
+        <h2 class="theading">About Me</h2>
+        <h4>Whole story of my life on timeline</h4>
       </div>
       <div class="timeline">
         <div class="outer">
