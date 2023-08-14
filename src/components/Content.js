@@ -6,7 +6,7 @@ function Content() {
   return (
     <div className="content" id="content">
       <div className="left-content">
-        <p>Hello, my name is</p>
+        <p className="hello">Hello, my name is</p>
         <h1>Bartosz Kaczmarek</h1>
         <p className="who-am-i">
           <TypeAnimation

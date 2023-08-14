@@ -1,6 +1,8 @@
 import React from "react";
 import "./Projects.css";
 import FITX from "../images/FITXProject.PNG";
+import FOTOCAMPER from "../images/FOTOCAMPERProject.PNG";
+import SOPRANO from "../images/SOPRANOProject.PNG";
 
 export const Projects = () => {
   return (
@@ -30,9 +32,13 @@ export const Projects = () => {
               <li>CSS</li>
             </ul>
           </div>
-          <img src={FITX} alt="Screenshot of FIT-X Catering Dietetyczny." />
+          <img
+            className="media-img"
+            src={FITX}
+            alt="Screenshot of FIT-X Catering Dietetyczny."
+          />
         </article>
-        <article class="reverse">
+        <article>
           <div class="text">
             <h4>Commercial Project</h4>
             <h3>FOTOCAMPER - Mobilna fotobudka</h3>
@@ -59,7 +65,8 @@ export const Projects = () => {
             </ul>
           </div>
           <img
-            src="./src/FOTOCAMPERProject.PNG"
+            className="media-img"
+            src={FOTOCAMPER}
             alt="Screenshot of FOTOCAMPER - Mobilna budka na Twoją imprezę."
           />
         </article>
@@ -90,7 +97,8 @@ export const Projects = () => {
             </ul>
           </div>
           <img
-            src="./src/SOPRANOProject.PNG"
+            className="media-img"
+            src={SOPRANO}
             alt="Screenshot of SOPRANO - Pizzeria & PUB"
           />
         </article>
